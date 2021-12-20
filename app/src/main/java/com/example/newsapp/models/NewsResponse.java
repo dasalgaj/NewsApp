@@ -3,19 +3,19 @@ package com.example.newsapp.models;
 import java.util.ArrayList;
 
 public class NewsResponse {
-    public ArrayList<News> news;
+    public ArrayList<Articles> articles;
 
-    public NewsResponse(ArrayList<News> news) {
-        this.news = news;
+    public NewsResponse(ArrayList<Articles> articles) {
+        this.articles = articles;
     }
 
     //GETTER
-    public ArrayList<News> getNews() {
-        return news;
+    public ArrayList<Articles> getArticles() {
+        return articles;
     }
 
     //SETTER
-    public void setNews(ArrayList<News> news) {
-        this.news = news;
+    public void setArticles(ArrayList<Articles> articles) {
+        this.articles = articles;
     }
 }

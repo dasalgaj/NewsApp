@@ -13,7 +13,7 @@ public class ApiManager {
         Retrofit.Builder builder = new Retrofit.Builder();
 
         Retrofit retrofit = builder
-                .baseUrl("https://api.webz.io")
+                .baseUrl("https://newsapi.org")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         service = retrofit.create(NewsApiService.class);

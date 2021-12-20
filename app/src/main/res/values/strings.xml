@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">NewsApp</string>
     <string name="title">News</string>
+    <string name="heading">New heading</string>
+    <string name="sub_heading">Sub heading</string>
+    <string name="home">Home</string>
+    <string name="settings">Settings</string>
+    <string name="sub_desc">Description</string>
+    <string name="content">Content</string>
+    <string name="source">Odaberi izvor:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

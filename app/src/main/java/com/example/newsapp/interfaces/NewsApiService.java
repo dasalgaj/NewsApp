@@ -6,6 +6,6 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 
 public interface NewsApiService {
-    @GET("/filterWebContent?token=2841a6e8-792a-4ca0-a83d-5f754e35526f&q=site_type:news%20country:HR")
-    Call<NewsResponse> getNews();
+    @GET("/v2/top-headlines?country=us&apiKey=c7d7c79fdcc04088a499db2f1803d606")
+    Call<NewsResponse> getArticles();
 }
